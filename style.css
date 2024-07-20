@@ -71,3 +71,21 @@ body{
     background-color: darkgreen;
     color: white;
 }
+
+.menu--container{
+    width: 100%;
+    height: 4vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    height: 4vh;
+    width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(2, 46, 2);
+}
