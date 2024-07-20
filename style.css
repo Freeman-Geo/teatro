@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.cortina{
+    transition: all 5s;
+    background-image: linear-gradient(to left, rgb(49, 2, 2), maroon, rgb(49, 2, 2), rgb(80, 4, 4), black, rgb(80, 4, 4), rgb(49, 2, 2), maroon, rgb(49, 2, 2));
+    width: 50.5vw;
+    height: 100%;
+    position: absolute;
+}
+
+.conrtina:hover{
+    width: 0;
+}
+
+.cortina--izq{
+    left: 0;
+}
+
+.cortina--der{
+    right: 0;
+}
+
+.img--click{
+    background-color: #fff;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 45%;
+    z-index: 10;
+    position: absolute;
+    top: 35vh;
+    left: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.img--click:hover{
+    background-color: #14db1a;
+}
+
+.click{
+    font-size: 2.5vw;
+}
+
+.img--host{
+    position: absolute;
+    z-index: 10;
+    width: 30vw;
+    right: 0;
+    bottom: 0;
+}
+
+.escenario--container{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: darkgreen;
+    color: white;
+}
